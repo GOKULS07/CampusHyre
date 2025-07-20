@@ -6,7 +6,7 @@ import Sidebar                from './Sidebar';
 import HomeApplications       from './HomeApplications';
 import './Style.css';
 
-const API = 'http://localhost:5000';   // <- single place to change later
+const API = 'http://localhost:5000';   
 
 export default function HomePage () {
   const navigate = useNavigate();
