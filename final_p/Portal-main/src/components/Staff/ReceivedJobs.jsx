@@ -5,7 +5,7 @@ import { FaCalendarAlt } from 'react-icons/fa'; // Calendar icon
 import { IoLocationSharp } from "react-icons/io5";
 import './Style.css';
 
-// Job Application Component
+
 const ReceivedJobs = ({ job, deleteJob }) => {
   const skillsList = Array.isArray(job.skills) ? job.skills : job.skills.split(',');
 
