@@ -61,5 +61,5 @@ const captionStyle = {
   color: '#333',
 };
 
-// Export component
+
 export default Mainpage;
