@@ -2,7 +2,7 @@
 from flask import request, jsonify
 from datetime import datetime, date
 import json
-from db import db                            # ← MongoDB database helper
+from db import db                        
 from bson import ObjectId
 
 # ------------------------------------------------------------------
