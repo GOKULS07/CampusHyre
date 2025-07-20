@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
-from db import db     # ← your MongoDB helper ‑ must return a Database object
+from db import db   
 
 # ─── CONFIG (move to env vars / settings in production) ────────────────
 smtp_server   = "smtp.gmail.com"
