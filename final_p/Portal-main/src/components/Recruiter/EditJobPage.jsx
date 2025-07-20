@@ -6,7 +6,7 @@ import './Style.css';
 /** ---------------------------------------------------------------------
  *  Centralise the back‑end URL in ONE place so you only ever edit it here
  *  -------------------------------------------------------------------*/
-const API_BASE = 'http://localhost:5000';   //  Flask‑+‑Mongo runs on :5000
+const API_BASE = 'http://localhost:5000';   
 
 export default function EditJobPage () {
   const navigate   = useNavigate();
