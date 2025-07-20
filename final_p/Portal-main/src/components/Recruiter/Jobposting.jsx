@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import Sidebar        from './Sidebar';
 import './Style.css';
 
-const API = 'http://localhost:5000';          // change once if the port/host moves
+const API = 'http://localhost:5000';        
 
 export default function Jobposting () {
   const nav = useNavigate();
