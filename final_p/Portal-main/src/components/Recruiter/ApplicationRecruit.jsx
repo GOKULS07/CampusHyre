@@ -3,7 +3,7 @@ import Sidebar from './Sidebar';
 import './Style.css';
 
 /* ──────────────────────────────────────────────────────────── */
-const API = 'http://localhost:5000';        // ← change here if the Flask URL moves
+const API = 'http://localhost:5000';        
 
 const STATUS = {
   PENDING : 1,   // “Incomplete”  in the table – waiting for staff action
