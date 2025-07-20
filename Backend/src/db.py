@@ -1,7 +1,7 @@
 # db.py  – central place for the Mongo client
 from flask_pymongo import PyMongo
 
-mongo = PyMongo()          # created once, reused everywhere
+mongo = PyMongo()          
 
 def init_app(app):
     """Call this ONCE in app.py after you create the Flask app."""
