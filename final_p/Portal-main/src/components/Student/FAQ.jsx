@@ -5,7 +5,7 @@ import Sidebar from './Sidebar';
 const FAQ = () => {
   // State to manage which question is expanded
   const [expandedIndex, setExpandedIndex] = useState(null);
-  const [faqs, setFaqs] = useState([]);  // State to hold FAQ data
+  const [faqs, setFaqs] = useState([]);  
   const [loading, setLoading] = useState(true); // Loading state
   const [error, setError] = useState(null);  // Error state
 
