@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Login.css';
 
-const API = 'http://localhost:5000';          // ← change here if your back‑end URL moves
+const API = 'http://localhost:5000';          
 
 const Login = () => {
   const [email,    setEmail]    = useState('');
