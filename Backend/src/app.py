@@ -1,7 +1,5 @@
-# ──────────────────────────────────────────────────────────
-# app.py  –  MongoDB version (no MySQL, no global cursor)
-# ──────────────────────────────────────────────────────────
-from flask import Flask, request, jsonify      # ⟵ NEW (request/jsonify needed)
+
+from flask import Flask, request, jsonify      
 from flask_cors import CORS
 
 from db import init_app, db                    # helper that returns Mongo client
