@@ -6,7 +6,7 @@ import './Style.css';
 import { IoLocationSharp } from "react-icons/io5";
 
 
-// Job Application Component
+
 const JobApplication = ({ job }) => {
   const skillsList = Array.isArray(job.skills) ? job.skills : job.skills.split(',');
 
