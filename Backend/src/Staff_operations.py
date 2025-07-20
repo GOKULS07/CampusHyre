@@ -3,8 +3,7 @@ from flask import request, jsonify, Response
 import bcrypt
 from bson import ObjectId
 from pymongo.errors import DuplicateKeyError
-from db import db      # your Mongo helper
-
+from db import db     
 # ------------------------------------------------------------------
 # 1. ADD NEW USER  (Staff / Recruiter creates accounts)
 # ------------------------------------------------------------------
