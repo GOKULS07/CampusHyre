@@ -1,0 +1,13 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  background-color: white;
+  font-style: normal;
+}
+input:focus {
+  outline: none;
+  border-color:  #3674B5;
+}

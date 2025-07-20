@@ -1,0 +1,513 @@
+.main-content {
+  background-color: white;
+  padding: 30px;
+}
+
+/* Centered Heading */
+.centered-text {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #444;
+}
+
+.analytics-box {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* CircleBox.css */
+.circle-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgb(198, 196, 196);
+}
+
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 15px solid #3498db;
+  /* Increased border thickness */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle p {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  color: black;
+}
+
+h2 {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.circle1 {
+  border-color: #F5AD48;
+}
+
+.circle2 {
+  border-color: #B44E94;
+}
+
+.circle3 {
+  border-color: #16D5A8;
+}
+
+
+.calendar-box {
+  padding: 20px;
+  background-color: white;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid rgb(198, 196, 196);
+}
+
+.calendar-box h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color:#3674B5;
+}
+
+.event {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+
+.event:last-child {
+  border-bottom: none;
+}
+
+.calendar-icon {
+  margin-right: 15px;
+  font-size: 24px;
+  color:#3674B5;
+}
+
+
+/* Container for the overall section */
+.two-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+
+}
+
+/* Analysis Box Styles */
+.analysis-box {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgb(198, 196, 196);
+
+}
+
+.analysis-box h3 {
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Placeholder for the chart */
+.chart-placeholder {
+  width: 100%;
+  height: 400px;
+  /* Set height for the chart */
+  position: relative;
+  margin-top: 20px;
+  /* Add some space between the chart and the rest of the content */
+}
+
+.filter-and-student-section {
+  padding: 20px;
+}
+
+
+.filter-container input {
+  width: 300px;
+  padding: 10px;
+}
+
+.event {
+  display: flex;
+}
+
+.event-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.event-detail h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 600;
+  color: #333;
+}
+
+.event-detail p {
+  font-size: 14px;
+  margin: 5px 0 0 0;
+  color: #777;
+}
+
+.acc {
+  color: black;
+  margin-left: 250px;
+  padding: 30px;
+}
+.acc h1{
+  text-align: center;
+}
+
+/* Main Content Styling */
+.addnewusers {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 6px 3px rgba(0, 0, 0, 0.1);
+  border: 1pz;
+}
+
+.column-add-acc {
+  margin-bottom: 25px;
+
+}
+
+.column-add-acc label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  margin-top: 15px;
+  color: #555;
+}
+
+.column-add-acc input,
+.column-add-acc select {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+  width: 100%;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  /* Ensures padding doesn’t affect element width */
+}
+
+.column-add-acc input:focus,
+.column-add-acc select:focus {
+  outline: none;
+  border-color: #0066cc;
+}
+
+.generate-password-admin {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0066cc;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.new-account-create {
+  padding: 12px 20px;
+  background-color:#3674B5;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.new-account-create:hover {
+  background-color: #005bb5;
+}
+
+.new-account-create:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+
+/* Job Posted */
+.posted-jobs-container {
+  margin-left: 250px;
+  padding: 30px;
+}
+
+
+.staff-job{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  }
+
+.delete-btn{
+  background-color: red;
+  color: white;
+  padding: 8px;
+  margin: 0;
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f;
+}
+
+
+/* Application */
+.application-staff-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+  margin-left: 250px;
+  width: 100%;
+}
+
+h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  /* Dark color for better readability */
+  text-align: center;
+}
+
+/* Input filter */
+.filters {
+  display: flex;
+  margin: 20px;
+  gap: 50px;
+  justify-content: center;
+  width: 100%;
+}
+
+.filters input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  position: relative;
+  border: 1px solid black;
+
+}
+
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-content p {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: left;
+  font-size: 0.9rem;
+  color: black;
+
+}
+.popup-content input{
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background 0.3s ease;
+}
+
+
+
+.approve-button,
+.decline-button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.decline-button {
+  background-color: white;
+  color: #3674B5;
+  border: 1px solid #3674B5;
+
+}
+
+.approve-button {
+  background-color: #3674B5;
+  color: white;
+}
+
+.decline-button:hover {
+  background-color: white;
+  color: #3674B5;
+  border: 1px solid #3674B5;
+
+}
+
+.approve-button:hover {
+  background-color: #3674B5;
+  color: white;
+}
+
+
+/* Student Details Table Container */
+.student-details-container {
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* Table Styles */
+.student-details-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-details-table th,
+.student-details-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid rgb(162, 161, 161);
+}
+
+.student-details-table th {
+  background-color:#3674B5;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.student-details-table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.student-details-table td {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+
+  .student-details-table {
+    font-size: 14px;
+  }
+
+  .student-details-table th,
+  .student-details-table td {
+    padding: 10px;
+  }
+
+  .two-boxes {
+    flex-direction: column;
+  }
+
+  .chart-placeholder {
+    height: 300px;
+  }
+
+  .posted-jobs-container,.application-staff-container,.main-content,.acc,.whole-job-des {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-placeholder {
+    height: 250px;
+  }
+
+
+  .circle-box {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .circle {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 20px;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+
+  .chart-placeholder {
+    height: 300px;
+  }
+
+  .chart-placeholder {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-placeholder {
+    height: 250px;
+  }
+}

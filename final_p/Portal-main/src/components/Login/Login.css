@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f4f6fc;
+  color: #2c3e50;
+}
+
+/* Fullscreen Background Layout */
+.page-container,
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: 
+    radial-gradient(circle at top right, rgba(255,255,255,0.3), transparent 40%),
+    radial-gradient(circle at bottom left, rgba(90, 130, 250, 0.2), transparent 50%),
+    url('data:image/svg+xml;utf8,<svg viewBox="0 0 1440 320" xmlns="http://www.w3.org/2000/svg"><path fill="%23a3bffa" fill-opacity="0.4" d="M0,160L48,144C96,128,192,96,288,117.3C384,139,480,213,576,240C672,267,768,245,864,213.3C960,181,1056,139,1152,128C1248,117,1344,139,1392,149.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>')
+    no-repeat bottom center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+/* Login Box */
+.login-box,
+.auth-box {
+  background: rgba(255, 255, 255, 0.96);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 450px;
+  transition: transform 0.3s ease;
+}
+
+.login-box:hover,
+.auth-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Header */
+.login-box h1,
+.auth-box h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #3a3a8b;
+  margin-bottom: 0.6rem;
+}
+
+.login-box p,
+.auth-box p {
+  color: #6c757d;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* Inputs */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 14px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background-color: #fdfdfd;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #3a3a8b;
+  box-shadow: 0 0 6px rgba(58, 58, 139, 0.4);
+  outline: none;
+}
+
+.input-group input::placeholder {
+  color: #aaa;
+}
+
+/* Error */
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin-top: -5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Forgot Password */
+.options {
+  font-size: 0.9rem;
+  color: #2c3e50;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.options a {
+  color: #3a3a8b;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* Submit Button */
+.login-button,
+.auth-button {
+  width: 100%;
+  background: linear-gradient(to right, #3a3a8b, #5865f2);
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-button:hover,
+.auth-button:hover {
+  background: linear-gradient(to right, #2d2d80, #4554c9);
+}
+
+/* Spinner */
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 3px solid #fff;
+  border-top: 3px solid transparent;
+  border-radius: 50%;
+  animation: spin 0.6s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Divider if used */
+.divider {
+  margin: 1.5rem 0;
+  text-align: center;
+  font-size: 1.1rem;
+  color: #999;
+}
+
+.divider span {
+  padding: 0 12px;
+  background-color: #fff;
+}
+
+/* Response Message */
+.response-message {
+  margin: 20px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+  .login-box,
+  .auth-box {
+    padding: 1.5rem;
+    width: 90%;
+  }
+
+  .login-box h1,
+  .auth-box h1 {
+    font-size: 1.5rem;
+  }
+
+  .login-button,
+  .auth-button {
+    padding: 0.9rem;
+  }
+}

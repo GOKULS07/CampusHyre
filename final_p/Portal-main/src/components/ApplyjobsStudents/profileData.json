@@ -1,0 +1,13 @@
+{
+  "name": "Shona S",
+  "email": "shona.ad21@bitsathy.ac.in",
+  "department": "Computer Science",
+  "cgpa": "8.5",
+  "gender": "Male",
+  "skills": "JavaScript, React, Node.js",
+  "dob": "2000-01-01",
+  "linkedin": "https://www.linkedin.com/in/shona/",
+  "github": "https://github.com/shona",
+  "address": "123 Main St, City, Country",
+  "phonenumber": "1234567890"
+}

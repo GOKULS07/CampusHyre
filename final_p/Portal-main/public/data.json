@@ -1,0 +1,136 @@
+{
+  "students": [
+    {
+      "name": "Shona S",
+      "rollno": "7376212AD197",
+      "email": "shona.ad21@bitsathy.ac.in",
+      "department": "AI & DS",
+      "batch": " 2025",
+      "year" : "IV",
+      "cgpa" : "8.73",
+      "arrear" : 0,
+      "skills": "JavaScript, React, Node.js",
+      "pic": "bg.jpeg",
+      "boarding" : "Self",
+      "mentor": "Gopalakrishnan B ( AD1131 ) ",
+      "speciallab": "Artificial Intelligence | Hari Priya R",
+      "attendance": [
+        {
+          "totalDays": 30,
+          "presentDays": 25,
+          "absentDays": 5
+        }
+      ],
+      "placement": [
+        {
+          "fa":91,
+          "fullstackpoint" : 1342,
+          "rank" : 1342
+        }
+      ],
+      "jobApplicationAnalytics": {
+        "appliedJobs": 5,
+        "attendedJobs": 3
+      }
+    },
+    {
+      "name": "Sheela",
+      "rollno": "7376212AD197",
+      "email": "sheela.ad21@bitsathy.ac.in",
+      "skills": "Python, Machine Learning, Data Science",
+      "department": "AI & DS",
+      "batch": "2025",
+      "pic": "",
+      "attendance": [
+        {
+          "totalDays": 60,
+          "presentDays": 58,
+          "absentDays": 2
+        }
+      ],
+      "dailyScores": [
+        {
+          "day": "Monday",
+          "score": 90
+        },
+        {
+          "day": "Tuesday",
+          "score": 96
+        },
+        {
+          "day": "Wednesday",
+          "score": 34
+        },
+        {
+          "day": "Thursday",
+          "score": 98
+        },
+        {
+          "day": "Friday",
+          "score": 56
+        },
+        {
+          "day": "Saturday",
+          "score": 93
+        }
+      ]
+    },
+    {
+      "name": "Shithu",
+      "rollno": "7376212AD197",
+      "email": "shithu.ad21@bitsathy.ac.in",
+      "department": "AI & DS",
+      "batch": "2025",
+      "skills": "Python, SQL, Node",
+      "pic": "",
+      "attendance": [
+        {
+          "totalDays": 60,
+          "presentDays": 58,
+          "absentDays": 2
+        }
+      ],
+      "dailyScores": [
+        {
+          "day": "Monday",
+          "score": 90
+        },
+        {
+          "day": "Tuesday",
+          "score": 96
+        },
+        {
+          "day": "Wednesday",
+          "score": 34
+        },
+        {
+          "day": "Thursday",
+          "score": 98
+        },
+        {
+          "day": "Friday",
+          "score": 56
+        },
+        {
+          "day": "Saturday",
+          "score": 93
+        }
+      ]
+    }
+  ],
+  "staff": [
+    {
+      "email": "staffplacement@bitsathy.ac.in"
+    }
+  ],
+  "recruiters": [
+    {
+      "companyname": "Zoho",
+      "email": "zoho+recruiter@bitsathy.ac.in"
+    },
+    {
+      "companyname": "Soliton",
+      "email": "soliton+recruiter@bitsathy.ac.in"
+    }
+  ]
+}

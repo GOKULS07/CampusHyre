@@ -1,0 +1,448 @@
+
+.whole-job-des{
+  padding: 30px;
+  background-color: white;
+  width: 100%;
+  margin-left: 250px;
+}
+
+
+
+.job-cards {
+  gap: 20px;
+  flex: 3;
+}
+
+.job-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: relative;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgb(217, 216, 216);
+  margin: 10px;
+  width: 100%;
+}
+.job-card h2{
+  font-size: 22px;
+}
+
+.rupee {
+  border-radius: 4px;
+  color: #398B43;
+  margin: 20px 0 10px;
+}
+
+.skills {
+  display: flex;
+  gap: 10px;
+}
+
+
+.skills-deadline {
+  display: flex;
+  align-items: center;
+}
+
+.skills span {
+  color: #266E79;
+  background-color: #5CCEE099;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.deadline {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.deadline .calendar-icon-new {
+  margin-right: 7px;
+  color: rgb(167, 167, 167);
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between; /* Distribute space between the job cards and filters */
+  gap: 20px; /* Adds space between job cards and filters */
+}
+
+.view-btn {
+  background-color: #3674B5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px 15px;
+  margin-top: 10px;
+  float: right;
+}
+
+.view-btn:hover {
+  background-color: #2C5A8A;
+}
+
+/* Filters container */
+.filters-app {
+  flex: 1;
+  padding: 0 30px;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky; /* Sticky positioning */
+  top: 2px; /* Sticks to the top when scrolling */
+  z-index: 1; /* Ensures it stays above other content */
+  background-color: white; /* Keeps background consistent */
+  overflow-y: auto; /* Allows scrolling within the filter section */
+  max-height: calc(100vh - 50px); /* Optional: Adjust this if you want to limit the height of the filter */
+}
+
+/* Heading for the filters */
+.filters-app h2 {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+/* Style for the filter inputs */
+.filters-app input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Focused input styling */
+.filters-app input:focus {
+  outline: none;
+  border-color: #2980b9;
+}
+
+/* Optional: For mobile responsiveness, adjust padding and font sizes */
+@media (max-width: 768px) {
+  .filters-app {
+    padding: 20px;
+  }
+
+  .filters-app h2 {
+    font-size: 24px;
+  }
+
+  .filters-app input {
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  .content-wrapper {
+    margin-left: 0; /* No sidebar margin for small screens */
+  }
+}
+
+
+
+
+
+/* File upload section */
+.job-detail-page {
+  padding: 20px;
+  margin-left: 250px;
+  /* margin: 100%; */
+  background-color: white; /* White background */
+
+}
+
+.back-arrow-button {
+  display: inline-block;
+  padding: 5px;
+  background-color: white; /* White background */
+  color: rgb(100, 99, 99); /* Black arrow color */
+  font-size: 13px; /* Font size for the arrow button */
+  cursor: pointer; /* Pointer cursor to indicate it's clickable */
+}
+
+.back-arrow-button:hover {
+  background-color: white;
+  color: black; 
+}
+
+.back-arrow-button span{
+  color: #2973B2;
+  font-size: 12px; /* Font size for the arrow button */
+  margin-left: 5px;
+
+}
+.job-detail-page h2 {
+  font-size: 2rem;
+  margin-top: 30px;
+}
+
+.ctc {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  color: #398B43;
+
+}
+
+.company-website {
+  font-style: italic;
+  margin-top: 10px;
+  color: blue;
+}
+
+.skills {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill {
+  background-color: #007BFF;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+
+.job-details ul {
+  list-style-type: disc; /* Default bullet points */
+  padding-left: 20px; /* Indentation for bullet points */
+  margin-bottom: 20px; /* Space below the list */
+}
+
+.job-details ul li {
+  margin-bottom: 10px; /* Space between list items */
+  font-size: 16px; /* Adjust text size */
+  line-height: 1.6; /* Add spacing between lines for readability */
+  color: #636262; /* Lighter text color for paragraphs */
+}
+
+.job-details ul li::before {
+  content: "\2022"; /* Unicode for bullet symbol */
+  font-size: 20px; /* Bullet size */
+}
+
+ h4 {
+  font-size: 18px;
+  margin-top: 30px; /* Space below the heading */
+  margin-bottom: 10px;
+  color:   #3674B5;;
+ }
+
+.job-details p ,.new-detail{
+  font-size: 16px;
+  color: #636262; /* Lighter text color for paragraphs */
+}
+.new-detail{
+  padding-left: 10px;
+}
+
+.ats-section {
+  margin-top: 20px;
+}
+
+.ats-button {
+  background-color:#3674B5;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.ats-textarea {
+  width: 100%;
+  height: 100px;
+  margin-top: 10px;
+}
+
+.generate-report-button {
+  background-color:#3674B5;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  float: right;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.job-apply-student {
+  margin-top: 30px;
+}
+
+.job-apply-student button {
+  padding: 12px 20px;
+  background-color:#3674B5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.job-apply-student button:hover {
+  background-color:#2C5A8A;
+}
+
+
+
+.resume-url {
+  margin-top: 20px;
+}
+
+.resume-url a {
+  color: #398B43;
+}
+
+
+.file-upload {
+  background-color: #ecf0f1;
+  border: 2px dashed #bdc3c7;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.file-upload:hover {
+  background-color: #eef5fb;
+}
+
+.file-upload p {
+  font-size: 16px;
+  color: #7f8c8d;
+  margin: 0;
+
+}
+
+.file-input {
+  display: none;
+}
+
+/* ATS section */
+.file-ats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.file-ats button {
+  padding: 12px 20px;
+  background-color: #3674B5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.file-ats button:hover {
+  background-color:#3674B5;
+}
+
+/* */
+.file-ats input[type="text"] {
+  padding: 15px;
+  width: 20%;
+  border: 2px solid #bdc3c7;
+  border-radius: 5px;
+  height: 140px;
+}
+
+
+.file-ats input[type="text"]:focus {
+  border-color: #2980b9;
+}
+
+
+
+/* Application Success Screen */
+.application-success {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.success-message {
+  text-align: center;
+  background-color: #fff;
+  padding: 60px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.success-message h1 {
+  font-size: 2rem;
+  color:  #3674B5;;
+  margin-bottom: 30px;
+}
+.tick-icon{
+  font-size: 60px;
+  color: #3674B5;
+  margin-bottom: 40px;
+}
+
+.cross{
+  font-size: 60px;
+  color: #ff0000;
+  margin-bottom: 40px;
+}
+
+.success-message p {
+  color: #888;
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .job-detail-page {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .file-ats {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .file-ats input[type="text"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .job-apply-student {
+    width: 100%;
+    text-align: center;
+  }
+
+
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .job-item {
+    padding: 10px;
+  }
+
+  .job-item p {
+    font-size: 1rem;
+  }
+}

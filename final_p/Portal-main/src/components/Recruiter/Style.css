@@ -1,0 +1,534 @@
+.centered-text {
+  flex: 1;
+  padding: 20px;
+  margin-left: 250px;
+}
+
+h1 {
+  text-align: left;
+}
+
+.recruiter-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.recruit-box {
+  width: 22%;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+.sided-bar-align{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.all-applications-container{
+  margin: 20px;
+}
+.whole-new-all{
+  padding: 30px;
+}
+
+.status-text {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.status-text:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.recruit-box h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: bold;
+
+
+}
+
+.recruit-box p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.page-recruiter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+  .page-recruiter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .para-new-recruiter {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  .page-recruiter img {
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+
+/* Style for the form container */
+
+.other-jobs{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Style for each form group */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.side-heading {
+  margin: 0;
+  color:  #3674B5;
+}
+
+.form-group textarea {
+  resize: vertical;
+  margin-bottom: 20px;
+}
+
+/* Skills input container */
+.skills-input-container {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.skills-input-container input {
+  width: 80%;
+  font-size: 1rem;
+}
+
+.skills-input-container button {
+  padding: 10px;
+  background-color: #3674B5;
+  color: white;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.skills-input-container button:hover {
+  background-color: #3674B5;
+}
+
+/* Skills list */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: #eee;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.skill-item button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.skill-item button:hover {
+  background-color: darkred;
+}
+
+/* Post Button */
+.post-button {
+  padding: 12px 20px;
+  background-color: #3674B5;
+  color: white;
+  border: none;
+  align-items: right;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.post-button:hover {
+  background-color: #2C5A8A;
+}
+
+input {
+  padding: 20px;
+}
+
+.main-content {
+  margin-left: 250px;
+  width: 100%;
+  padding: 30px;
+}
+
+/* SuccessPage.css */
+.job-posted-details {
+  margin-left: 250px;
+  padding: 30px;
+  margin-top: -50px;
+}
+
+.success-container {
+  padding: 30px;
+  background-color: #ffff;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+
+.success-container1 {
+  padding: 30px;
+  background-color: #ffff;
+  border-radius: 10px;
+}
+
+.success-title {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.job-details-card {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid rgb(217, 216, 216);
+  margin: 10px;
+  width: 100%;
+}
+
+.other-jobs-btns{
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+}
+
+.job-dele{
+  background-color: red;
+}
+.job-dele:hover{
+  background-color: rgb(246, 110, 110);
+}
+
+
+.search-input {
+  width: 30%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+
+
+.job-item {
+  padding: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.job-item p {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 5px 0;
+}
+
+.job-item p strong {
+  color: #333;
+}
+
+
+.loading-indicator {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #333;
+}
+
+
+/* General styles */
+.recruiter-application-container {
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-left: 250px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Table styles */
+.jobs-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  overflow: hidden;
+}
+
+.jobs-table th,
+.jobs-table td {
+  padding: 12px;
+  text-align: left;
+  border-right: 1px solid #ddd;
+  text-align: center;
+
+}
+
+.jobs-table th {
+  background-color: #3674B5;
+  color: white;
+}
+
+.jobs-table tr {
+  background-color: #f1f1f1;
+}
+
+/* Input filter */
+.skills-filter {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.skills-filter input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 30%;
+}
+
+/* Buttons */
+.view-button {
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #3674B5;
+  color: white;
+  transition: background 0.3s;
+}
+
+
+.popup-buttons {
+  gap: 20px;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.decline-button {
+  background-color: white;
+  color: #3674B5;
+  border: 1px solid #3674B5;
+}
+
+.approve-button {
+  background-color: #3674B5;
+  color: white;
+  padding: 8px 12px;
+}
+
+.decline-button:hover {
+  background-color: white;
+  color: #3674B5;
+  border: 1px solid  #3674B5;
+
+}
+
+.close-button:hover {
+  background: white;
+}
+
+
+.view-button:hover,
+.approve-button:hover,
+.decline-button:hover {
+  opacity: 0.8;
+}
+
+/* Popup styles */
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  position: relative;
+  border: 1px solid black;
+
+}
+
+.popup-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-content p {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+/* Ensure these styles override any unwanted ones */
+.close-button {
+  position: absolute;
+  color: black;
+  background: white;
+  cursor: pointer;
+}
+
+.approval-popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Popup Container */
+.approval-popup {
+  position: relative; /* Makes the close button position relative to the popup */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* Popup Content Styles */
+.popup-content h4 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.send-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #45a049;
+}
+
+.popup-buttons {
+  text-align: center;
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .posted-jobs-container {
+    width: 90%;
+  }
+
+  .centered-text,
+  .job-posted-details,
+  .main-content,
+  .recruiter-application-container,.popup-overlay  {
+    margin-left: 0px;
+  }
+
+  .job-item {
+    padding: 10px;
+  }
+
+  .job-item p {
+    font-size: 1rem;
+  }
+}

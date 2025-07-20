@@ -1,0 +1,78 @@
+{
+  "students": [
+    {
+      "name": "Shona",
+      "rollno" : "7376212AD197",
+      "email" : "shona.ad21@bitsathy.ac.in",
+      "department" : "AI & DS",
+      "batch" : "2025",
+      "pic" : "https://www.vecteezy.com/vector-art/27137889-monogram-nw-logo-with-diamond-rhombus-style-luxury-modern-logo-design",
+      "attendace" :[
+        {
+          "totalDays" :60,
+          "presentDays" :56,
+          "absentDays" :4
+        }
+      ],
+      "dailyScores": [
+        {"day": "Monday", "score": 85},
+        {"day": "Tuesday", "score": 90},
+        {"day": "Wednesday", "score": 78},
+        {"day": "Thursday", "score": 92},
+        {"day": "Friday", "score": 88},
+        {"day": "Saturday", "score": 75}
+      ]
+    },
+    {
+      "name": "Sheela",
+      "rollno" : "7376212AD197",
+      "email" : "sheela.ad21@bitsathy.ac.in",
+      "department" : "AI & DS",
+      "batch" : "2025",
+      "pic" : "",
+      "attendace" :[
+        {
+          "totalDays" :60,
+          "presentDays" :58,
+          "absentDays" :2
+        }
+      ],
+      "dailyScores": [
+        {"day": "Monday", "score": 90},
+        {"day": "Tuesday", "score": 96},
+        {"day": "Wednesday", "score": 34},
+        {"day": "Thursday", "score": 98},
+        {"day": "Friday", "score": 56},
+        {"day": "Saturday", "score": 93}
+      ]
+    },
+    {
+      "name": "Shithu",
+      "rollno" : "7376212AD197",
+      "email" : "shithu.ad21@bitsathy.ac.in",
+      "department" : "AI & DS",
+      "batch" : "2025",
+      "pic" : "",
+      "attendace" :[
+        {
+          "totalDays" :60,
+          "presentDays" :58,
+          "absentDays" :2
+        }
+      ],
+      "dailyScores": [
+        {"day": "Monday", "score": 90},
+        {"day": "Tuesday", "score": 96},
+        {"day": "Wednesday", "score": 34},
+        {"day": "Thursday", "score": 98},
+        {"day": "Friday", "score": 56},
+        {"day": "Saturday", "score": 93}
+      ]
+    }
+  ],
+  "staff" :[
+{
+  "email" : "staffplacement@bitsathy.ac.in"
+}
+  ]
+}

@@ -1,0 +1,499 @@
+
+  .main-top-heading {
+    margin: 20px;
+    text-align: left;
+  }
+  .whole-container{
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .container-side-pages {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .resume-name1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .resume-name-branch{
+    text-align: center;
+  
+  }
+  input {
+    margin: 5px;
+  }
+  
+  /* Adjust the space between icons and text */
+  .resume-contact svg {
+    font-size: 16px;
+    /* Adjust icon size */
+  }
+  
+  /* Add space on the right side for the overall contact block */
+  .resume-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /* Increase gap between items */
+  }
+  
+  
+  /* Form Section */
+  .form-section {
+    width: 33%;
+    padding: 20px;
+    background-color: rgb(225, 238, 254);
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: auto;
+    max-height: 170vh;
+    /* You can adjust this depending on your layout */
+  
+  }
+  
+  .section-title {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #201979;
+  }
+  
+  .input-group-detail {
+    display: flex;
+  }
+  
+  .input-group ,.input-group-add{
+    padding-top: 25px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    text-align: justify;
+  }
+  
+  .input-label {
+    font-size: 1rem;
+    /* Adjust font size as needed */
+    font-weight: 600;
+    /* Makes the label text bold */
+    margin-bottom: 0.5rem;
+    /* Space between label and input */
+    display: block;
+    /* Ensure label takes up the full width */
+  }
+  
+  textarea {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 10px;
+    height: 90px
+  }
+  .input-field-name {
+    width: 40%;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 10px;
+  
+  }
+  
+  
+  .download-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1d1671;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  
+  /* Resume Preview */
+  /* Resume Preview Styling */
+  .resume-preview {
+    width: 100%; /* Take up full available width */
+    background-color: white;
+    box-shadow: 3px 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-sizing: border-box;
+    max-height: 200vh;
+    overflow: visible;
+  }
+  
+  
+  .resume-body-conten {
+    padding: 20px;
+  }
+  
+  .resume-name {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  
+  .resume-contact {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-bottom: 8px;
+  }
+    
+  .resume-contact1 {
+    display: flex;
+    flex-wrap: wrap;  /* Allows items to wrap if needed */
+    justify-content: center;  /* Aligns items to the left */
+    gap: 10px;  /* Adds space between items (both icons and links) */
+    margin-top: 15px;
+    font-size: 14px;
+  
+  }
+  
+  
+  .resume-link1 {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .resume-link1:hover {
+    text-decoration: underline;
+  }
+  
+  .resume-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .resume-link:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  .divider {
+    border: 1px solid #e5e7eb;
+  }
+  
+  .section-grid {
+    display: grid;
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .section-grid h3, .section-grid-template h3 {
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #200e7b;
+    text-decoration: underline;
+    padding-top: 8px;
+  }
+  
+  .section-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .section-title-new{
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: justify;
+    color:#201979;
+
+  }
+
+  /* Input Group Add */
+  .input-group-add {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+
+  .side-add-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .formn-new-change {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+    gap: 20px; /* Add space between the columns */
+  }
+  
+  .input-field {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+  
+   button {
+    padding: 12px ;
+    background-color: #1d1671;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    text-align: center;
+    align-self: flex-start;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+  } 
+  
+  button:hover {
+    background-color: #2e22b1;
+  }
+  
+  
+  .delete-button {
+    padding: 12px;
+    background-color: #f56565;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    align-self: flex-start;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #e53e3e;
+  }
+  
+  /* For buttons in 'input-group-add' to align nicely with the input fields */
+  .input-group-add button {
+    max-width: 100px;
+    /* Limit the button width */
+    padding: 10px 15px;
+  }
+  
+  .side-add-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .side-add-btn button {
+    margin-left: 10px;
+    /* Space between input field and button */
+  }
+  
+  .buttons-under-colmns {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  /* Styling for the "Skills" and other input areas */
+  .input-group-add .input-field {
+    width: calc(100% - 110px);
+    /* Make space for the button */
+  }
+  
+  .input-group-add button {
+    width: 100px;
+  }
+  
+  /* List Styles */
+  ul {
+    padding-left: 20px;
+    list-style-type: none;
+    margin-top: 0;
+  }
+  
+  .big-list {
+    padding-right: 70px;
+  
+  }
+  
+  ul li {
+    margin-bottom: 15px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    text-align: justify;
+    padding-left: 25px;
+  }
+  
+  ul li::before {
+    content: "\f0da";
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #171154;
+    /* Custom color for the icon */
+  }
+  
+  /* Delete Button Styling */
+  ul li button {
+    background-color: #f56565;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+  ul li button:hover {
+    background-color: #e53e3e;
+  }
+  
+  .heading-preview {
+    background: linear-gradient(to right, #130f4d, #1f1971, #3823bc);
+    color: white;
+    padding: 12px 0 20px 30px;
+
+  }
+  .branch-name{
+    padding-bottom: 20px;
+  }
+  
+  .heading-preview1 {
+    color: black;
+    text-align: center;
+  }
+
+  .resume-name-newone{
+    font-size: 30px;
+  }
+  
+  
+  .date-section {
+    display: flex;
+    max-width: 152px;
+    gap: 7px;
+  }
+
+  .date-section input{
+    font-size: 14px;
+  }
+  p, ul {
+    font-size: 0.9rem;
+  }
+  
+.sideheading-title{
+  font-size: 16px;
+  text-align: left;
+  color: black;
+}
+.content-main {
+  flex: 1;
+  border-radius: 8px;
+  padding: 30px;
+  background-color: white;
+  margin-left: 250px;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* Template selection container */
+.template-container-res {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Template item styling */
+.template {
+  width: 45%;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 30px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.template:hover {
+  transform: scale(1.05);
+}
+
+.template-image {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.template-caption {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.template-caption a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.template-caption a:hover {
+  text-decoration: underline;
+}
+
+
+.form-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create 3 equal-width columns */
+  gap: 20px; /* Add space between the columns */
+}
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container-res-main {
+    flex-direction: column;
+    align-items: center; /* Center the content on small screens */
+  }
+
+  .content-main {
+    width: 100%;
+    margin-left: 0px;
+    padding: 15px;
+  }
+
+  .template-container-res {
+    justify-content: center;
+  }
+
+  .template {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
