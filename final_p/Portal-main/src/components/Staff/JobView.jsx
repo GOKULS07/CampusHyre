@@ -7,7 +7,7 @@ import './Style.css';
 const API = 'http://localhost:5000';
 
 export default function JobView () {
-  const { job_id } = useParams();           // ← string id from <Route path="/job/:job_id" …/>
+  const { job_id } = useParams();          
   const navigate   = useNavigate();
 
   const [job,     setJob]     = useState(null);
