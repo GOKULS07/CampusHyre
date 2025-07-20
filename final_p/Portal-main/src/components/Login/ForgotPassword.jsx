@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import './Login.css';         // shared styles
+import './Login.css';        
 
 const API = 'http://localhost:5000'; //  ← single line to edit if your back‑end URL changes
 
