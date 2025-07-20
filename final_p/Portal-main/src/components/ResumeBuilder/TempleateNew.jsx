@@ -36,7 +36,7 @@ const TempleateNew = () => {
       if (!confirmDelete) return;
     }
     const updatedEducation = education.filter((item, idx) => idx !== index); // Remove item by index
-    setEducation(updatedEducation); // Update the state
+    setEducation(updatedEducation); 
   };
 
 
