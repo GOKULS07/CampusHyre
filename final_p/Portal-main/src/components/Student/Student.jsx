@@ -13,7 +13,7 @@ const Student = () => {
   const [staffFeedbacks, setStaffFeedbacks] = useState([]);
   const [feedbackError, setFeedbackError] = useState(null);
 
-  // Fetch student data
+  
   useEffect(() => {
     const email = sessionStorage.getItem("email");
 
