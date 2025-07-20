@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Style.css';
 import { IoLocationSharp } from 'react-icons/io5'; // Location icon
-import { FaCalendarAlt } from 'react-icons/fa';     // Calendar icon
+import { FaCalendarAlt } from 'react-icons/fa';     
 import { useNavigate } from 'react-router-dom';
 
 function SuccessPage() {
