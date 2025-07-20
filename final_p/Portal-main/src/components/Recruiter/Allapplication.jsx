@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 const API = 'http://localhost:5000';
 
 export default function AllApplications() {
-  /* ---------------- state ---------------- */
+ 
   const [applications, setApplications]       = useState([]);
   const [selectedJob,  setSelectedJob]        = useState(null);
 
