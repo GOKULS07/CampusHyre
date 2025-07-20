@@ -13,7 +13,7 @@ function UserAccount() {
   const [isLoading, setIsLoading] = useState(true);
   const navigate = useNavigate();
 
-  // Check session access before rendering the main content
+ 
   useEffect(() => {
     const checkSessionAccess = async () => {
       const eemail = sessionStorage.getItem('email');
