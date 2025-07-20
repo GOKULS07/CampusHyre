@@ -19,7 +19,7 @@ export default function ApplicationStaff() {
   const [instruction,   setInstruction]   = useState('');
   const [approveId,     setApproveId]     = useState(null);
 
-  const [designation,   setDesignation]   = useState('');  // "Staff" | "Recruiter" | etc.
+  const [designation,   setDesignation]   = useState(''); 
   const [loading,       setLoading]       = useState(false);
   const [error,         setError]         = useState(null);
 
