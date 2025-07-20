@@ -2,7 +2,7 @@
 from flask import request, jsonify, Response
 from datetime import datetime, date
 import json, base64, bson
-from db import db                                    # mongo helper
+from db import db                                   
 
 # ── helpers ───────────────────────────────────────────────────────
 ALLOWED_EXTENSIONS = {"pdf"}
