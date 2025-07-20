@@ -19,9 +19,7 @@ const API = 'http://localhost:5000/student_analysis';
 export default function LineChartComponent() {
   const [chartData, setChartData] = useState({ labels: [], datasets: [] });
 
-  /* ───────────────────────────────────────────────────── */
-  /*  1.  Normalise whatever shape the API gives us        */
-  /* ───────────────────────────────────────────────────── */
+
   const normalise = raw => {
     // If it’s already shape A, just return it.
     if (raw.months && Array.isArray(raw.months)) {
