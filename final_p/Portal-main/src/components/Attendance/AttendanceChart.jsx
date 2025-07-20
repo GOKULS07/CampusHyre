@@ -4,9 +4,7 @@ import { Chart as ChartJS, Title, Tooltip, Legend, ArcElement } from 'chart.js';
 
 ChartJS.register(Title, Tooltip, Legend, ArcElement);
 
-/* ------------------------------------------------------------------ */
-/* Configuration – feel free to move these to a constants file        */
-/* ------------------------------------------------------------------ */
+
 const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000';
 
 const COLORS = {
