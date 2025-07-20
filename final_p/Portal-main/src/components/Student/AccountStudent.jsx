@@ -1,7 +1,7 @@
 // src/pages/AccountStudent.jsx
 import React, { useEffect, useState } from 'react';
 import Sidebar from './Sidebar';
-           // optional styling
+           
 
 const API = 'http://localhost:5000';
 
