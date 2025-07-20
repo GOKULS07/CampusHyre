@@ -5,7 +5,7 @@ import { FaCalendarAlt }       from 'react-icons/fa';
 import { Link, useNavigate }   from 'react-router-dom';
 import './Style.css';
 
-const API = 'http://localhost:5000';   // one place to edit later
+const API = 'http://localhost:5000';   
 
 export default function HomeApplications () {
   const [jobs,        setJobs]        = useState([]);
